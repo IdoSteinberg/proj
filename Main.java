@@ -4,7 +4,6 @@ class Main {
         Motor motor2 = new Motor(0.4, 3, "Falcon");
         Motor motor3 = new Motor(0.2, 6, "Falcon2");
         Motor motor4 = new Motor(0.3, 0, "Falcon4");
-        Motor motor5 = new Motor(0.2, 3, "Falcon3");
         motor2.printPort();
         motor1.changePower(0.7);
         motor1.printPower();
